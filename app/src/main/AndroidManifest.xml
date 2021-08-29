@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.appinventario">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".com.app.appinventario.activitys.CustomReporteCostoProductoActivity"></activity>
+        <activity android:name=".com.app.appinventario.activitys.ReporteCostoProductoActivity" />
+        <activity android:name=".com.app.appinventario.activitys.CustomReporteDetalleVActivity" />
+        <activity android:name=".com.app.appinventario.activitys.ViewReporteDetalleVActivity" />
+        <activity android:name=".com.app.appinventario.activitys.CustomReporteVentAActivity" />
+        <activity android:name=".com.app.appinventario.activitys.ReporteVentaActivity" />
+        <activity android:name=".com.app.appinventario.activitys.EditProductActivity" />
+        <activity android:name=".com.app.appinventario.activitys.LlamadoReportesActivity" />
+        <activity android:name=".com.app.appinventario.activitys.CustomReporteProductoActivity" />
+        <activity android:name=".com.app.appinventario.activitys.ReporteProductoActivity" />
+        <activity
+            android:name=".com.app.appinventario.activitys.kardex"
+            android:configChanges="orientation"
+            android:screenOrientation="landscape" />
+        <activity android:name=".com.app.appinventario.activitys.BuscaKardex" />
+        <activity android:name=".com.app.appinventario.activitys.CustomVentas" />
+        <activity android:name=".com.app.appinventario.activitys.ViewVentas" />
+        <activity android:name=".com.app.appinventario.activitys.Vender_product" />
+        <activity android:name=".com.app.appinventario.activitys.CustomCompras" />
+        <activity android:name=".com.app.appinventario.activitys.ViewCompras" />
+        <activity android:name=".com.app.appinventario.activitys.Comprar_productos" />
+        <activity android:name=".com.app.appinventario.activitys.PDFActivity" />
+        <activity android:name=".com.app.appinventario.activitys.About2Activity" />
+        <activity android:name=".com.app.appinventario.activitys.CustomActivity" />
+        <activity android:name=".com.app.appinventario.activitys.ConsultarProductoActivity" />
+        <activity android:name=".com.app.appinventario.activitys.ViewProductActivity" />
+        <activity android:name=".com.app.appinventario.activitys.CustomProductActivity" />
+        <activity android:name=".com.app.appinventario.activitys.EditClientActivity" />
+        <activity android:name=".com.app.appinventario.activitys.ViewClientActivity" />
+        <activity android:name=".com.app.appinventario.activitys.CustomClientActivity" />
+        <activity android:name=".com.app.appinventario.activitys.EditCategoryActivity" />
+        <activity android:name=".com.app.appinventario.activitys.ViewCategoryActivity" />
+        <activity android:name=".com.app.appinventario.activitys.CustomCategoryActivity" />
+        <activity android:name=".com.app.appinventario.activitys.EditUserActivity" />
+        <activity android:name=".com.app.appinventario.activitys.CustomUserActivity" />
+        <activity android:name=".com.app.appinventario.activitys.ViewUser" />
+        <activity android:name=".com.app.appinventario.activitys.EditProviderActivity" />
+        <activity android:name=".com.app.appinventario.activitys.CustomProviderActivity" />
+        <activity android:name=".com.app.appinventario.activitys.ViewProviderActivity" />
+        <activity android:name=".com.app.appinventario.activitys.NewProductActivity" />
+        <activity android:name=".com.app.appinventario.activitys.NewUserActivity" />
+        <activity android:name=".com.app.appinventario.activitys.NewClientActivity" />
+        <activity android:name=".com.app.appinventario.activitys.NewProviderActivity" />
+        <activity android:name=".com.app.appinventario.activitys.NewCategoryActivity" />
+        <activity android:name=".com.app.appinventario.activitys.DashboardActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.app.appinventario.activitys.CheckCodeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.app.appinventario.activitys.NewPasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.app.appinventario.activitys.MailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.app.appinventario.activitys.PresentationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
